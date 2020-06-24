@@ -1,0 +1,164 @@
+  
+
+/*fuente descargada*/
+ @font-face {
+     font-family: 'jelly_craziesregular';
+     src: url('jelly_crazies-webfont.woff2') format('woff2'),
+         url('jelly_crazies-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+
+ }
+/* estilo de las cabeceras de las páginas cuentos y juegos*/
+#cabecera{
+    margin-top: 20px;
+    font-family: 'jelly_craziesregular';
+    text-align: center;
+    font-size: 100%;
+    line-height: 50px;
+     align-content: center;
+}
+#cabecera p{
+    font-size: 50%;
+    padding: 0;
+    margin: 0;
+     
+}
+ #principal {
+     background-color: #F9ADC1;
+ }
+
+ #portada body {
+     background-image: "../imagenes/fondo.jpg";
+ }
+#contenedor1{
+    align-content: center; 
+}
+
+/*posiciones de mimi y fafa en la portada*/
+ #imagen_mimi {
+     position: absolute;
+     top: 50%;
+     left: 15%;
+     display: block;
+ }
+#clari {
+     position: absolute;
+     top:75%;
+     right: 15%;
+     width: 100px;
+    display:block;
+      
+     
+}
+ 
+
+ #imagen_fafa {
+     position: absolute;
+     top: 50%;
+     right: 15%;
+ }
+/*imagen central de la portada*/
+ .card-body {
+     padding: 0;
+     margin: 0;
+ }
+
+ /*barra de navegaceion, botnes de la barra de navegación*/
+ .nav-item input {
+     background-color: #5871CD;
+     height:30px;
+     margin-left:20px;
+ }
+.nav  span{
+    font-family: 'jelly_craziesregular';
+    text-align: center;
+    font-size: 100%;
+    line-height: 75px;
+    
+}
+
+ .clase-fondo {
+     background-color: #D22B32;
+ }
+
+ #contenedor_cuerpo iframe{
+    border: ridge 10px purple;
+}
+ 
+
+ #tituloJuegos {
+     text-align: center;
+     color: #D22B32;
+     font-family: 'jelly_craziesregular';
+     font-size: 75%;
+     
+ }
+/*estilos del footer*/
+#pie{
+    background-color: purple;
+    color: white;
+    border-radius:30px;    
+}
+#pie ul{
+    list-style: none;
+    
+}
+/* iconos de redes-sociales*/
+#face{
+  width: 52px;
+  height: 52px;
+  background: url(../imagenes/sprites.png) 0 0;
+}
+ 
+ #insta{
+  background: url(../imagenes/sprites.png) 55px 0;
+  width: 52px;
+  height: 52px;  
+    
+}
+#twiter{
+  width: 52px;
+  height: 52px;
+  background: url(../imagenes/sprites.png)110px 0;
+}
+#wasap{
+  width: 52px;
+  height: 52px;
+  background: url(../imagenes/sprites.png) 165px 0;
+}
+ 
+#face:hover{
+  width: 52px;
+  height: 52px;
+  background: url(../imagenes/sprites2.png) 0 55px;
+}
+
+ #insta:hover{
+  
+  background: url(../imagenes/sprites2.png) 55px 0;
+  width: 52px;
+  height: 52px;  
+    
+}
+#twiter:hover{
+  width: 52px;
+  height: 52px;
+  background: url(../imagenes/sprites2.png)110px 0;
+}
+#wasap:hover{
+  width: 52px;
+  height: 52px;
+  background: url(../imagenes/sprites2.png) 165px 0;
+}
+ 
+
+#adivinar button{
+    background-color: brown;
+    width: 150px;
+    height: 150px;
+    border-radius: 200px 200px;
+    
+}
+
+  form label.error, label.error {color: red;font-style: italic}
