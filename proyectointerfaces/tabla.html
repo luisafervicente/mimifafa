@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Index</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/cuentos.js" type="text/javascript"></script>
+    <script src="Scripts/jquery-1.6.4.js" type="text/javascript"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+    <script src="https://cdn.datatables.net/buttons/1.6.1/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.6.1/js/dataTables.buttons.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+
+
+</head>
+
+<body style="background-image:url('imagenes/posiblefondo2.jpg');">
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#mytable').DataTable({
+
+
+                "ajax": {
+                    "url": "listado.json",
+                    "dataType": "json",
+                    "dataSrc": "data"
+                },
+
+                "columns": [
+
+
+                    {
+                        "data": "nombre"
+                    },
+                    {
+                        "data": "familia"
+                    },
+                    {
+                        "data": "afinacion"
+                    },
+                    {
+                        "data": "formaciones"
+                    },
+                    {
+                        "data": "edad_cominezo"
+                    },
+                    {
+                        "data": "interprete_reconocido_hombre"
+                    },
+                    {
+                        "data": "interprete_reconocido_mujer"
+                    }
+
+
+
+
+                ]
+            });
+        });
+
+    </script>
+
+    <div class="container">
+        <div id="contenedor1" class="row col-lg-12 col-md-12 col-sm-12 col-12 self-align-center">
+            <div id="cabecera" class="col-lg-3 col-md-3 d-none d-lg-block">
+                <a href="index.html" data-toggle="tooltip" title="Volver al principio">
+                    <img src="imagenes/fafavector.png" class="img-fluid"></a></div>
+            <div id="cabecera" class="col-lg-6 col-md-12 col-sm-12 col-12 ">
+                <span>LAS MUSICAVENTURAS DE MIMI Y FAFA</span><br />
+                <p>APRENDAMOS SOBRE INSTRUMENTOS</p>
+                <a href="index.html" class=" d-none d-lg-block">
+                    <p>VAMOS AL PRINCIPIO</p>
+                </a>
+            </div>
+            <div id="cabecera" class="col-lg-3 col-md-3 d-none d-lg-block">
+                <a href="juegos.html" data-toggle="tooltip" title="Vamos a jugar!!">
+                    <img src="imagenes/mimivector.png" class="img-fluid"></a>
+            </div>
+            <!--            estos div son para cuando la pantalla es pequeña-->
+            <div id="cabecera" class="col-12 d-lg-none d-md-block d-block">
+                <a href="index.html">
+                    <p>ESCUCHEMOS CUENTOS</p>
+                </a>
+                <a href="index.html">
+                    <p>VOLVEMOS AL PRINCIPIO</p>
+                </a>
+
+                <a href="index.html">
+                    <p>VAMOS A JUGAR</p>
+                </a>
+            </div>
+        </div>
+       <div id="tabla" class="col-12">
+        <table id="mytable" class="table table-hover table-sm" >
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Familia</th>
+                    <th>Afinación</th>
+                    <th>Formación</th>
+                    <th>Edad comienzo</th>
+                    <th>Interpretes Masculinos</th>
+                    <th>Inerpretes Femeninos</th>
+                </tr>
+            </thead>
+           </table>
+</div>
+
+
+
+
+
+
+
+
+
+        </table>
