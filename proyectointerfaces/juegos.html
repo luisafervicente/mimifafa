@@ -1,0 +1,156 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     <title>Juegos</title>
+     <meta charset="utf-8-bom">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta http-equiv="x-ua-compatible" content="ie=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+     <script src="js/cuentos.js" type="text/javascript"></script>
+     <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+ </head>
+
+ <body style="background-color:#FFB6C1">
+    
+     <!--  Cabecera de las páginas secundarias-->
+     <div class="container">
+         <div id="contenedor1" class="row col-lg-12 col-md-12 col-sm-12 col-12 self-align-center">
+             <div id="cabecera" class="col-lg-3 col-md-3 d-none d-lg-block">
+                 <a href="index.html" data-toggle="tooltip" title="Volver al principio">
+                     <img src="imagenes/fafavector.png" class="img-fluid"></a></div>
+             <div id="cabecera" class="col-lg-6 col-md-12 col-sm-12 col-12 ">
+                 <span>LAS MUSICAVENTURAS DE MIMI Y FAFA</span><br />
+                 <a href="formulario.html" class=" d-none d-lg-block">
+                     <p>HAZTE NUESTRO AMIGO</p>
+                 </a>
+             </div>
+             <div id="cabecera" class="col-lg-3 col-md-3 d-none d-lg-block">
+                 <a href="cuentos.html" data-toggle="tooltip" title="Veamos cuentos!!">
+                     <img src="imagenes/mimivector.png" class="img-fluid"></a>
+             </div>
+             <!--            estos div son para cuando la pantalla es pequeña-->
+
+             <div id="cabecera" class="col-12 d-lg-none d-md-block d-block">
+                 <a href="formulario.html">
+                     <p>HAZTE NUESTRO AMIGO</p>
+                 </a>
+                 <a href="index.html">
+                     <p>VOLVEMOS AL PRINCIPIO</p>
+                 </a>
+
+                 <a href="cuentos.html">
+                     <p>VAMOS A LOS CUENTOS</p>
+                 </a>
+             </div>
+         </div>
+
+         <!--         cuerpo de la página dejuegos, se pueden ir añadiendo nuevos div con mas juegos-->
+         <div id="contenedor_cuerpo">
+             <div id="contenedor2" class="row col-lg-12 col-md-12 col-sm-12 col-12 self-align-center ">
+
+
+
+                 <div id="clarinete" class="col-lg-4 col-md-4 d-none d-lg-block">
+                     <a href=# data-toggle="tooltip" title="Haz clikc">
+                         <img src="imagenes//CLARINETEVECTOR.png" class="img-fluid" /> </a>
+                     
+                 </div>
+                 <div id="guitarra" class="col-lg-4 col-md-4 d-none d-lg-block">
+                     <a href=# data-toggle="tooltip" title="Haz clikc">
+                         <img src="imagenes/guitarraPequeña.png" class="img-fluid" /> </a></div>
+                 <div id="trompeta" class="col-lg-4 col-md-4 d-none d-lg-block">
+                     <a href=# data-toggle="tooltip" title="Haz clikc">
+                         <img src="imagenes/CoolClips_vc017980.png" class="img-fluid" /></a>
+                 </div>
+                 <!--                     div para la pagina pequeña-->
+                 <div class="col-12 d-lg-none d-md-block d-block" id="fuentes">
+                     <p style="text-align: center; font-family: 'jelly_craziesregular'">Haz clikc y escucha el instrumento</p>
+
+                     <ul style="margin-left: 40%;">
+                              
+                             <li  style="list-style-image: url(iconos/CLARINETE_ICONO.png); font-family: 'jelly_craziesregular';color:black">CLARINETE  </li>
+                        
+                        
+                             <li style="list-style-image: url(iconos/guitarraPeque%C3%B1aIcono.png);font-family: 'jelly_craziesregular';color:black;">GUITARRA</li>
+                         
+                         
+                             <li style="list-style-image: url(iconos/trompeta_icono.png); font-family: 'jelly_craziesregular';color:black;">TROMPETA</li>
+                        
+
+
+                     </ul>
+
+
+
+
+                 </div>
+                 <audio id="music">
+                            <source src="musica/greek-clarino.mp3" type="audio/mp3">
+                 </audio>
+                 <audio id="guita">
+                           <source  src="musica/mario.mp3" type="audio/mp3">
+                 </audio>
+                 <audio id="trompe">
+                           <source src="musica/trompeta.mp3" type="audio/mp3">
+                     </audio>  
+
+                 <!--                      Para pantalla pequeña-->
+                  
+
+
+
+             </div>
+
+
+
+
+
+
+
+
+
+         </div>
+         <!--          Este el pie, será común para todas las páginas-->
+
+         <div id="pie" class="row col-12" style="padding: 0; margin:10px 0">
+             <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                 <h2>Contacta con nosotras</h2>
+                 <ul>
+                     <li>Donde estamos: C/Lanzarote 1 Local, Utebo</li>
+                     <li>Tlf:66666666</li>
+                     <li>email:mimifafa@gmail.com</li>
+                 </ul>
+             </div>
+             <div class="col-lg-4 col-md-4 col-sm-6 col-12" style="align-content: center">
+
+                 <a href=#><img id="face" src="imagenes/transaprente.png"></a>
+                 <a href=#><img id="insta" src="imagenes/transaprente.png"></a>
+                 <a href=#><img id="twiter" src="imagenes/transaprente.png"></a>
+                 <a href=#><img id="wasap" src="imagenes/transaprente.png"></a>
+
+             </div>
+
+
+             <div class="col-lg-4 col-md-4 col-sm-12 col-12 ">
+                 <h2>Páginas que nos gustan</h2>
+                 <a href="https://spaceplace.nasa.gov/sp/">La Nasa para niños</a>
+                 <a href="https://cuentosparadormir.com/infantiles/cuentos-de-instrumentos-musicales">Cuentos para dormir</a>
+                 
+             </div>
+
+
+
+
+
+         </div>
+
+     </div>
+
+ </body>
+
+ </html>
